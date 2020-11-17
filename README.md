@@ -5,8 +5,8 @@ My personal repository contains what I'm learning through this course [Autonomou
 
 ## Software Stack
 - Baidu Apollo v5.5+ (`git clone` from [here](https://github.com/ApolloAuto/apollo))
-- LGSVL Simulator (documentation from [here](https://www.lgsvlsimulator.com/docs/)
-- Docker Engine (documentation from [here](https://docs.docker.com/engine/install/ubuntu/)
+- LGSVL Simulator (documentation from [here](https://www.lgsvlsimulator.com/docs/))
+- Docker Engine (documentation from [here](https://docs.docker.com/engine/install/ubuntu/))
 
 ## Prerequisites
 - Ubuntu 16.04 or later (Ubuntu 18.04 is preferred)
@@ -54,6 +54,7 @@ Restart Docker daemon for the changes above to take effect.
 - enter the container from Apollo root folder `./docker/scripts/dev_into.sh`
 - activate dreamview `./scripts/bootstrap_lgsvl.sh`
 - activate the bridge `./scripts/bridge.sh`
-- Complete instruction from [here](https://www.lgsvlsimulator.com/docs/apollo-master-instructions/)
+- more instructions from [here](https://www.lgsvlsimulator.com/docs/apollo-master-instructions/)
 
-
+### Sample Demonstration Video
+- Watch [Running Baidu Apollo via LGSVL Simulator](https://youtu.be/adaWOz_d0tM)
