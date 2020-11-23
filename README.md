@@ -57,7 +57,7 @@ Restart Docker daemon for the changes above to take effect.
 - more instructions from [here](https://www.lgsvlsimulator.com/docs/apollo-master-instructions/)
 
 ### Sample Demonstration Video
-<iframe width="560" height="315" src="https://www.youtube.com/embed/adaWOz_d0tM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Running Baidu Apollo via LGSVL Simulator](img/sample_demo.png)](https://www.youtube.com/watch?v=adaWOz_d0tM)
 
 
 ## Record LiDAR Point Cloud
