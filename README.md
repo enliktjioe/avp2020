@@ -70,7 +70,7 @@ Restart Docker daemon for the changes above to take effect.
 - The recording file will available on root path /apollo, for example file name will be like this `20201122140558.record.00000`
 
 ## Generate Local Map
-[Reference by Tanya Shtym](https://colab.research.google.com/drive/1TGqWGqNEHVLnWdxedXkjOvEkZCnSgVlu?usp=sharing#scrollTo=SUNAvHFrm5eu)
+[Reference](https://colab.research.google.com/drive/1TGqWGqNEHVLnWdxedXkjOvEkZCnSgVlu?usp=sharing#scrollTo=SUNAvHFrm5eu)
 ### Method 1
 - Before generating, make sure we already have recording file from `cyber_recorder` command
 - Run this command: `./scripts/msf_simple_map_creator.sh /apollo/recording/ /apollo/modules/calibration/data/Lincoln2017MKZ_LGSVL/velodyne_params/velodyne128_novatel_extrinsics.yaml 10 outmap` (assuming `/apollo/recording/` is the path where record file located)
@@ -97,7 +97,7 @@ t /apollo/20201122140558.record/record_parser/00000/pcd/pcd_timestamp.txt /apoll
 - Output in `/apollo/20201122140558.record/outmap/lossy_map`
 
 ## Record Waypoints and Replay it
-[Reference by Tanya Shtym](https://colab.research.google.com/drive/1wx1iLsYP5zkYEumoHivIx9jw4nC47wUl?usp=sharing#scrollTo=jQZpJC19EKFz)
+[Reference](https://colab.research.google.com/drive/1wx1iLsYP5zkYEumoHivIx9jw4nC47wUl?usp=sharing#scrollTo=jQZpJC19EKFz)
 ### Record
 - Run this two commands
 `./scripts/rtk_recorder.sh setup` and `./scripts/rtk_recorder.sh start`
@@ -111,4 +111,4 @@ t /apollo/20201122140558.record/record_parser/00000/pcd/pcd_timestamp.txt /apoll
 - Run `./scripts/rtk_player.sh start`
 
 ## Reference(s)
-- [Credits by Tanya Shtym](https://docs.google.com/document/d/1uJSoimyLXUrd1_YRGwssnEyQK-kX_gf8jgZ1xUgKAo0/edit)
+- [Credits](https://docs.google.com/document/d/1uJSoimyLXUrd1_YRGwssnEyQK-kX_gf8jgZ1xUgKAo0/edit)
