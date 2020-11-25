@@ -111,4 +111,4 @@ t /apollo/20201122140558.record/record_parser/00000/pcd/pcd_timestamp.txt /apoll
 - Run `./scripts/rtk_player.sh start`
 
 ## Reference(s)
-- [Credits](https://docs.google.com/document/d/1uJSoimyLXUrd1_YRGwssnEyQK-kX_gf8jgZ1xUgKAo0/edit)
+- [Credits to Tanya Shtym](https://docs.google.com/document/d/1uJSoimyLXUrd1_YRGwssnEyQK-kX_gf8jgZ1xUgKAo0/edit)
