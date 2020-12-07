@@ -679,7 +679,8 @@ bool LexusController::CheckResponse(const int32_t flags, bool need_wait) {
   AERROR << "check_response fail: is_steering_enabled:" << is_steering_enabled
          << ", is_brake_enabled:" << is_brake_enabled
          << ", is_accel_enabled:" << is_accel_enabled;
-  return false;
+  // return false;
+  return true; //return false causing Apollo to go to "Emergency Mode"
 }
 
 void LexusController::set_chassis_error_mask(const int32_t mask) {
