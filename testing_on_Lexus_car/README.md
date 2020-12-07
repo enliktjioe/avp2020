@@ -1,3 +1,8 @@
+# Testing Apollo on Lexus Car
+
+## General Information
+Contains only some changed required modules from [official repo of Apollo](https://github.com/ApolloAuto/apollo)
+
 ## Dec 1st, 2020 Meeting
 This meeting started with brief presentation about SocketCAN and how it works with AV car
 
@@ -20,4 +25,7 @@ This meeting started with brief presentation about SocketCAN and how it works wi
 - Set low-latency Linux
 
 `sudo apt-get install -y linux-lowlatency`
-	
+
+
+## Reference(s)
+- Credits to [Navid Bamdad Roshan](https://docs.google.com/document/d/19-NjgMJckhQ-rYFoHw4eI5fy8FPJ3ofTIzXevZ1Xh-0/edit?usp=sharing)
