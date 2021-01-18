@@ -110,5 +110,9 @@ t /apollo/20201122140558.record/record_parser/00000/pcd/pcd_timestamp.txt /apoll
 - Put the car into initial location, by press `F12` in simulator
 - Run `./scripts/rtk_player.sh start`
 
+## Testing on the Lexus Car
+
+- Real testing of Apollo framework on Lexus car, documented [here](https://github.com/enliktjioe/avp2020/blob/master/testing_on_Lexus_car/README.md)
+
 ## Reference(s)
 - [Credits to Tanya Shtym](https://docs.google.com/document/d/1uJSoimyLXUrd1_YRGwssnEyQK-kX_gf8jgZ1xUgKAo0/edit)
