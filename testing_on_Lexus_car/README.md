@@ -8,9 +8,9 @@ Contains only some changed required modules from [official repo of Apollo](https
 ### Setup
 - Enter docker container
 - Run `./apollo.sh build_opt_gpu canbus`
-![](img/Screen Shot 2021-01-18 at 21.26.33.png)
+![](img/t1.png)
 - Run `./scripts/rtk_player.sh setup` and `./scripts/canbus.sh`
-![](img/Screen Shot 2021-01-18 at 21.29.31.png)
+![](img/t2.png)
 - Run `./scripts/canbus_teleop.sh`
 ![](img/Screen Shot 2021-01-18 at 21.30.42.png)
 
