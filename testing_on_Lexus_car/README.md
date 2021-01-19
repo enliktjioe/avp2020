@@ -12,47 +12,47 @@ Contains only some changed required modules from [official repo of Apollo](https
 - Run `./scripts/rtk_player.sh setup` and `./scripts/canbus.sh`
 ![](img/t2.png)
 - Run `./scripts/canbus_teleop.sh`
-![](img/Screen Shot 2021-01-18 at 21.30.42.png)
+![](img/t3.png)
 
 ### Control Module
 - Run `cyber_launch stop /apollo/modules/control/launch/control.launch`
-![](img/Screen Shot 2021-01-18 at 21.32.57.png)
-![](img/Screen Shot 2021-01-18 at 21.33.40.png)
+![](img/t4.png)
+![](img/t5.png)
 - Start Control module `./scripts/control.sh`
 
 ### RTK Player and Recorder
 - Setup RTK Player `./scripts/rtk_player.sh setup`
-![](img/Screen Shot 2021-01-18 at 21.39.42.png)
+![](img/t7.png)
 - Cyber Node List `cyber_node list`
-![](img/Screen Shot 2021-01-18 at 21.40.36.png)
+![](img/t8.png)
 - Cyber Launch start control module
-![](img/Screen Shot 2021-01-18 at 21.41.43.png)
+![](img/t9.png)
 - RTK Recorder `./scripts/rtk_recorder.sh start`
-![](img/Screen Shot 2021-01-18 at 21.43.03.png)
+![](img/t10.png)
 - Start RTK Player `./scripts/rtk_player.sh start`
 
 ### Stopping all running modules
 - GPS + canbus + localization + control modules
-![](img/Screen Shot 2021-01-18 at 21.44.34.png)
+![](img/t11.png)
 
 ### Canbus
 - cyber launch canbus
-![](img/Screen Shot 2021-01-18 at 21.45.55.png)
+![](img/t12.png)
 - cyber launch start localization
-![](img/Screen Shot 2021-01-18 at 21.46.19.png)
+![](img/t13.png)
 - cyber launch gnss
-![](img/Screen Shot 2021-01-18 at 21.47.27.png)
+![](img/t14.png)
 
 ### Misc
 - Pad Terminal `./bazel-bin/modules/control/tools/pad_terminal`
-![](img/Screen Shot 2021-01-18 at 21.37.12.png)
-![](img/Screen Shot 2021-01-18 at 21.50.10.png)
+![](img/t6.png)
+![](img/t15.png)
 - fix canbus config and minus sign
-![](img/Screen Shot 2021-01-18 at 21.52.09.png)
-![](img/Screen Shot 2021-01-18 at 21.52.14.png)
+![](img/t16.png)
+![](img/t17.png)
 
 ### Sample Demo Screenshot
-![](img/Screen Shot 2021-01-18 at 21.50.51.png)
+![](img/t18.png)
 
 ## Dec 8, 2020 Meeting
 GNSS with Apollo and Lexus Car
